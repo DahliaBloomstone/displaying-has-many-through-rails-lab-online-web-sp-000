@@ -5,7 +5,7 @@ def index
   @patients = Patient.all
 end
 
-#show patient by ID 
+#show/find patient by ID 
 def show
   @patient = Patient.find(params[:id])
   end
