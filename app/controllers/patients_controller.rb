@@ -1,4 +1,6 @@
 class PatientsController < ApplicationController
+
+#display patients on index page 
 def index
   @patients = Patient.all
 end
